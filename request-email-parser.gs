@@ -1,3 +1,7 @@
+// Created with the help of MadeByMany 
+// "Supercharge your Google Form with Google Apps Script!" by Ken Haggerty
+// Modified for personal use
+
 function onFormSubmit(e) {
   Logger.log("[METHOD] onFormSubmit");
   
