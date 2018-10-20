@@ -124,14 +124,3 @@ function emailCategorySelector(text) {
   if (text =="General IT Support"|"IT Support")
     return "ansel.hartanto@cus.ca";
 }
-
-
-// TEST FUNCTION //
-
-function test() {
-  Logger.log("[METHOD] test");
-  
-  var ss = SpreadsheetApp.openById("13nHs9-ShOFIosHZLNtZYlW6Avj_qHfAItZ42z218ljg").getActiveSheet();
-  var testRange = ss.getRange(8,1,1,ss.getLastColumn());
-  sendEmail(testRange);
-}
